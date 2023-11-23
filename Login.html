@@ -1,5 +1,88 @@
-<body>
-<h1>Congratulations!</h1>
-<p>You are logged in now</p>
-<a href="#">Logout</a>
+<html>
+<head>
+<style>
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+  display: flex;
+}
+nav{
+  background: #80b9b8;
+  height: 100%;
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: column;
+}
+nav ul li{
+  display: block;
+  margin-bottom: 20px;
+}
+nav ul li a{
+  color: white;
+  font-size: 20px;
+  padding: 10px 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #003663;
+  transition: .5s;
+}
+
+label.logo{
+  color: #003663;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 15px;
+  font-weight: bold;
+}
+ 
+}
+.section{
+      padding: 50px;
+    }
+
+    .left-section {
+      width: 15%;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f0f0f0;
+    }
+
+    .right-section {
+      width: 85%;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #eeeeee;
+    }
+
+</style>
+</head>
+ <body>
+ <div class="left-section">
+    <nav>
+
+      <label class="logo">SERVICES</label>
+    <ul>
+      <li><a href="#">Create Rides</a></li>
+      <li><a href="#">Join rides</a></li>
+      <li><a href="#">My Rides</a></li>
+      <li><a href="https://cloud-web-app.auth.us-east-2.amazoncognito.com/logout?client_id=3hrtt0b6ganfj0bus1t48tsqij&logout_uri=https%3A%2F%2Fgithub.com%2Fthanujak1128%2FCloud_Web_App%2Fblob%2Fmain%2FLogout.html">Logout</a></li>
+    </ul>
+  </nav>
+  </div>
+  <div class="right-section">
+        <img src="https://github.com/thanujak1128/Cloud_Web_App/blob/main/Car_Pool.png" alt="" height=100% width=100%>
+</div>
+
 </body>
+</html>
